@@ -9,11 +9,12 @@ const LoginButton = styled.TouchableOpacity`
 const LabelButton = styled.Text`
   color:white;
   font-size:16px;
+
 `;
 const Button = ({children}) => {
   return (
     <LoginButton>
-      <LabelButton>{children}</LabelButton>
+      <LabelButton>{children} </LabelButton>
     </LoginButton>
   );
 }

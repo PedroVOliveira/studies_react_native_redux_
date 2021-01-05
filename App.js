@@ -30,6 +30,8 @@ const CircleOne = styled(CircleBase)`
   position:absolute;
   top:-100px;
   right:-100px;
+
+
 `;
 
 const CircleTwo = styled(CircleBase)`
@@ -54,6 +56,7 @@ const App = () => {
         <Button>Acessar Conta</Button>
       </Container>
       <CircleTwo />
+
     </ThemeProvider>
   );
 }
